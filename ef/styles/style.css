@@ -7,7 +7,7 @@
     --accent2-color: #b5dad4;
   
     /* change the values below to your chosen font(s) */
-    --heading-font:'Abril Fatface', cursive;-regular;
+    --heading-font:'Abril Fatface', cursive; 
     --paragraph-font: 'Anonymous Pro', monospace, sans-serif;
   
     /* these colors below should be chosen from among your palette colors above */
@@ -110,7 +110,7 @@ p {
     grid-template-columns: 10fr 10fr 10fr;
     padding-top: 50px;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-right: 50px;
 }
 .img1 {
@@ -125,7 +125,7 @@ p {
     padding-left: 50px;
 }
 .section {
-    padding-left:40x;
+    padding-left:40px;
     align-items: center;
 }
 
@@ -281,7 +281,6 @@ h2, h3 {
     padding-top: 550px;
 }
 .treat {
-    display: absolute;
     max-width: 800px;
     padding-top: 1150px;
 
@@ -318,11 +317,10 @@ h2, h3 {
 	border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0,0,0,.5);
     border-width: 20px;
-    scale: 90%;
+    scale: 80%;
 }
 .unique1 {
     transform: rotate(10deg);
-    padding-left: -10px;
 }
 .unique { 
     top:-50px; 
